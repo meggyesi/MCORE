@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mcore-2023": {
+      "hosting": {
+        "mcore-torrent": [
+          "mcore-2023"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mcore-2023"
+  }
+}
