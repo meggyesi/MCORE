@@ -1,3 +1,13 @@
+# Webfejlesztési keretrendszerek 2022
+Szegedi Tudományegyetem Webfejlesztési keretrendszerek projektmunka
+* Téma: Torrent oldal
+* Technológia: Angular,Firebase
+* Leadási határidő: 2023.05.07
+
+Meggyesi Márk (ME8RU1)
+
+Ha bármiféle kérdésed vagy gondod van, keress meg CS-en vagy Dc-n marko159#3528
+
 # McoreTorrent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
