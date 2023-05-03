@@ -5,8 +5,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    min-height: 100vh;
     background: rgb(63,81,181);
-    background: linear-gradient(0deg,rgba(254,254,254,1) 0%,rgba(63,81,181,1) 100%);
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0%,rgba(63,81,181,1) 100%);
     border-style: initial;
     border-width: 5px;
     border-color: #242020;
@@ -42,7 +43,7 @@
     opacity: 1;
     padding: 60px 50px 40px 50px;
     width: 100%;
-    height: 350px;
+    height: 40s0px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     transform: scale(1);
@@ -146,9 +147,10 @@
 
 .box-head{
     width: 500px;
+    height: 70px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .box-number mat-card-header {
@@ -156,10 +158,10 @@
     width: 100%;
     display: block;
     font-weight: 700;
-    line-height: 35px;
+    line-height: 25px;
   }
   .box-number mat-card-header mat-card-title {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 5px;
     margin: 0;
   }

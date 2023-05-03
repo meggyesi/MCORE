@@ -10,18 +10,18 @@
         <mat-icon>menu</mat-icon>
       </button>
     </div>
-      <div>NemBuqiTorrent</div>
+      <div>Mcore</div>
       <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
         <ul fxLayout fxLayoutGap="10px" class="nav-items">
-          <li *ngIf="!(loggedinUser)"><a routerLink="/login">Login</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/login" (click)="logout()">Logout</a></li>
-          <li *ngIf="!(loggedinUser)" ><a routerLink="/signup">Sign-Up</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/main">Feed</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/download">Download</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/upload">Upload</a></li>
+          <li *ngIf="!(loggedinUser)"><a routerLink="/login">Bejelentkezés</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/login" (click)="logout()">Kijelentkezés</a></li>
+          <li *ngIf="!(loggedinUser)" ><a routerLink="/signup">Regisztráció</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/main">Főoldal</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/download">Letöltés</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/upload">Feltöltés</a></li>
           <li><a routerLink="/contact">Contact</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/table">Legyszi-board</a></li>
-          <li *ngIf="loggedinUser"><a routerLink="/profile">Profile</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/table">Kérések</a></li>
+          <li *ngIf="loggedinUser"><a routerLink="/profile">Profil</a></li>
         </ul>
       </div>
     </mat-toolbar>
