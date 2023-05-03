@@ -9,7 +9,7 @@ Meggyesi Márk (ME8RU1)
 Ha otthon szeretnéd futtatni, akkor npm install + npm serve
 Ilyenkor letölti a Node Modules-t, viszont nálam itt mindig hibára fut, egy hibás Firestore file miatt.
 Ezt nagyon könnyen javítani lehet kézzel(később biztosan lesz erre egy update).
-Menj a file-ba ahol a hibát jelzi és minden sorban ahol hibát jelezett, tegyél egy <T> -t a sor végén a zárójel elé.
+Menj a file-ba ahol a hibát jelzi és minden sorban ahol hibát jelezett, tegyél egy &lt;T&gt; -t a sor végén a zárójel elé.
 
 Ha bármiféle kérdésed vagy gondod van, keress meg CS-en vagy Dc-n marko159#3528
 
