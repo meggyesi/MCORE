@@ -13,6 +13,7 @@ Menj a file-ba ahol a hibát jelzi és minden sorban ahol hibát jelezett, tegy�
 
 Ha bármiféle kérdésed vagy gondod van, keress meg CS-en vagy Dc-n marko159#3528
 
+mcore-2023.firebaseapp.com
 
 # McoreTorrent
 
